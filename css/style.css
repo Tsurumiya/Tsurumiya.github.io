@@ -1,0 +1,63 @@
+body
+{
+	background-color:black;
+}
+
+.header {
+	padding: 25px;
+	text-align: center;
+}
+
+.content {
+	padding: 25px;
+	text-align: center;
+}
+
+.navi {
+	overflow: hidden;
+	text-align:center;
+}
+
+.navi a {
+    display:inline-block;	
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navi a:hover {
+	text-decoration: underline;
+}
+
+.footer
+{
+	text-align:center;
+	font-size:12px;
+	padding: 20px;
+}
+
+h1
+{
+	font-family:"Yu Gothic Light";
+	font-size:28px;
+	color:white;
+}
+
+h2
+{
+	font-family:"Yu Gothic Light";
+	font-size:20px;
+	color:white;
+}
+
+p
+{
+	font-family:"Yu Gothic Light";
+	font-size:16px;
+	color:white;
+}
+			
+#sketch-holder{
+	width:500px;
+	margin:0 auto;
+}
