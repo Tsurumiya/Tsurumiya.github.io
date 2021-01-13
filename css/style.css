@@ -42,6 +42,11 @@ body
 	text-decoration: underline;
 }
 
+.navi a:active {
+	color: DarkGray;
+	text-decoration: underline;
+}
+
 .footer
 {
 	text-align:center;
