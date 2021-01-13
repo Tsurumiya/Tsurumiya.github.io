@@ -22,6 +22,11 @@ body
 	text-decoration: underline;
 }
 
+.content a:active {
+	color: DarkGray;
+	text-decoration: underline;
+}
+
 .content a:visited {
 	color: white;
 }
