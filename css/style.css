@@ -11,7 +11,19 @@ body
 .content {
 	padding: 25px;
 	text-align: center;
-	color:white;
+}
+
+.content a {	
+	color: white;
+}
+
+.content a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.content a:visited {
+	color: white;
 }
 
 .navi {
