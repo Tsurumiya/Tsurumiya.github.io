@@ -81,6 +81,7 @@ p
 
 button { 
 	background-color: transparent; 
+	color: white;
 	border: none; 
 	cursor: pointer; 
 	outline: none; 
@@ -90,17 +91,18 @@ button {
 
 #Audio-Control {
 	overflow: hidden; 
+	margin:0 auto;
 } 
 
 #Audio-Control button { 
-	border: 1px solid #ccc; 
+	border: 1px solid white; 
 	width: 40px; 
 	float: left; 
 	padding: 5px 0; 
-	-webkit-transition: all 0.6s ease;
-	-moz-transition: all 0.6s ease; 
-	-o-transition: all 0.6s ease; 
-	transition: all 0.6s ease; 
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease; 
+	-o-transition: all 0.2s ease; 
+	transition: all 0.2s ease; 
 } 
 
 #Audio-Control button.on { 
@@ -112,9 +114,10 @@ button {
 }
 
 #Audio-Control button.active { 
-	background: #ccc;
+	background: white;
+	color: black;
 } 
 
 #Audio-Control button:not(.active):hover { 
-	background: rgba(204, 204, 204, 0.3); 
+	background: #ccc; 
 }
