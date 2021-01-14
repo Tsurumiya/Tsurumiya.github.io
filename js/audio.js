@@ -1,7 +1,7 @@
 let el = document.getElementById("bgm"); 
 
 function enableMute() { 
-  el.muted = true; 
+	el.muted = true; 
 } 
 
 function disableMute() { 
