@@ -1,6 +1,7 @@
 body
 {
 	background-color:black;
+	font-family: sans-serif;
 }
 
 .header {
@@ -57,21 +58,18 @@ body
 
 h1
 {
-	font-family:"Yu Gothic Light";
 	font-size:28px;
 	color:white;
 }
 
 h2
 {
-	font-family:"Yu Gothic Light";
 	font-size:20px;
 	color:white;
 }
 
 p
 {
-	font-family:"Yu Gothic Light";
 	font-size:16px;
 	color:white;
 }
