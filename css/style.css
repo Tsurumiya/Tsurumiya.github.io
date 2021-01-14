@@ -90,13 +90,14 @@ button {
 }	
 
 #Audio-Control {	
-	overflow: hidden; 	
+	overflow: hidden;
+	width: 100px;
 	margin:0 auto;	
 } 	
 
 #Audio-Control button { 	
 	border: 1px solid white; 	
-	width: 40px;
+	width: 50px;
 	float: left;
 	padding: 5px 0; 
 	-webkit-transition: all 0.2s ease;	
