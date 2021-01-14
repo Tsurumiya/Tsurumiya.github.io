@@ -96,7 +96,8 @@ button {
 
 #Audio-Control button { 	
 	border: 1px solid white; 	
-	width: 30px; 	
+	width: 40px;
+	padding: 5px 0; 
 	-webkit-transition: all 0.2s ease;	
 	-moz-transition: all 0.2s ease; 	
 	-o-transition: all 0.2s ease; 	
