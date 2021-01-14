@@ -96,13 +96,13 @@ button {
 
 #Audio-Control button { 	
 	border: 1px solid white; 	
-	width: 35px;
+	width: 40px;
 	float: left;
 	padding: 5px 0; 
-	-webkit-transition: all 0.1s ease;	
-	-moz-transition: all 0.1s ease; 	
-	-o-transition: all 0.1s ease; 	
-	transition: all 0.1s ease; 	
+	-webkit-transition: all 0.2s ease;	
+	-moz-transition: all 0.2s ease; 	
+	-o-transition: all 0.2s ease; 	
+	transition: all 0.2s ease; 	
 } 	
 
 #Audio-Control button.on { 	
