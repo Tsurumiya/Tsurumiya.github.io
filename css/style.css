@@ -13,7 +13,11 @@ body
 	text-align: center;
 }
 
-.content a {	
+.content a:link {	
+	color: white;
+}
+
+.content a:visited {
 	color: white;
 }
 
@@ -25,10 +29,6 @@ body
 .content a:active {
 	color: DarkGray;
 	text-decoration: underline;
-}
-
-.content a:visited {
-	color: white;
 }
 
 .navi {
