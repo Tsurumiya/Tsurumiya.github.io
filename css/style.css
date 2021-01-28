@@ -89,6 +89,11 @@ button {
 	appearance: none; 	
 }	
 
+#muteButton {
+  width: 100px
+}
+
+/*
 #Audio-Control {	
 	overflow: hidden;
 	width: 100px;
@@ -123,3 +128,4 @@ button {
 #Audio-Control button:not(.active):hover { 	
 	background: #ccc; 	
 }
+*/
