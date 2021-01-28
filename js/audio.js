@@ -1,10 +1,10 @@
-let el = document.getElementById("bgm"); 
-
 function enableMute() { 
+	let el = document.getElementById("bgm"); 
 	el.muted = true; 
 } 
 
 function disableMute() { 
+	let el = document.getElementById("bgm"); 
 	el.muted = false; 
 } 
 
