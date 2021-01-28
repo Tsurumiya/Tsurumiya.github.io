@@ -1,4 +1,3 @@
-/*
 function enableMute() { 
 	let el = document.getElementById("bgm"); 
 	el.muted = true; 
@@ -7,15 +6,6 @@ function enableMute() {
 function disableMute() { 
 	let el = document.getElementById("bgm"); 
 	el.muted = false; 
-} 
-*/
-
-function toggleMute() { 
-  	let el = document.getElementById("bgm"); 
-  	el.muted = !el.muted
-  	let btn = document.getElementById("muteButton")
-  	btn.innerText = (btn.innerText === "Mute") ? "Unmute" : "Mute"
-  	console.log(el)
 } 
 
 $(function(){
