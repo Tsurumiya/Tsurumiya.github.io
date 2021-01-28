@@ -117,7 +117,7 @@ button {
 
 #Audio-Control button.active { 	
 	background: white;	
-	color: black;	
+	color: #ccc;	
 } 	
 
 #Audio-Control button:not(.active):hover { 	
