@@ -1,11 +1,13 @@
 function enableMute() { 
 	let el = document.getElementById("bgm"); 
-	el.muted = true; 
+	//el.muted = true;
+	el.pause();
 } 
 
 function disableMute() { 
 	let el = document.getElementById("bgm"); 
-	el.muted = false; 
+	//el.muted = false; 
+	el.play();
 } 
 
 $(function(){
